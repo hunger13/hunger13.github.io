@@ -79,14 +79,17 @@
 
 
 
+<meta name="description" content="Git使用简易指南  创建新仓库创建新文件夹，打开，然后执行git init以创建新的 git 仓库。 克隆仓库执行如下命令以创建一个本地仓库的克隆版本：git clone /path/to/repository 如果是远端服务器上的仓库，你的命令会是这个样子：git clone username@host:/path/to/repository 工作流你的本地仓库由 git 维护的三棵“树”">
 <meta property="og:type" content="article">
-<meta property="og:title" content="blog">
+<meta property="og:title" content="hanchenhao">
 <meta property="og:url" content="http://yoursite.com/2018/03/20/blog/index.html">
 <meta property="og:site_name" content="hanchenhao">
+<meta property="og:description" content="Git使用简易指南  创建新仓库创建新文件夹，打开，然后执行git init以创建新的 git 仓库。 克隆仓库执行如下命令以创建一个本地仓库的克隆版本：git clone /path/to/repository 如果是远端服务器上的仓库，你的命令会是这个样子：git clone username@host:/path/to/repository 工作流你的本地仓库由 git 维护的三棵“树”">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2018-03-20T14:21:10.000Z">
+<meta property="og:updated_time" content="2018-03-20T15:04:59.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="blog">
+<meta name="twitter:title" content="hanchenhao">
+<meta name="twitter:description" content="Git使用简易指南  创建新仓库创建新文件夹，打开，然后执行git init以创建新的 git 仓库。 克隆仓库执行如下命令以创建一个本地仓库的克隆版本：git clone /path/to/repository 如果是远端服务器上的仓库，你的命令会是这个样子：git clone username@host:/path/to/repository 工作流你的本地仓库由 git 维护的三棵“树”">
 
 
 
@@ -122,7 +125,7 @@
 
 
 
-  <title>blog | hanchenhao</title>
+  <title> | hanchenhao</title>
   
 
 
@@ -246,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">blog</h1>
+          <h1 class="post-title" itemprop="name headline"></h1>
         
 
         <div class="post-meta">
@@ -296,7 +299,28 @@
       
 
       
-        
+        <hr>
+<p> Git使用简易指南</p>
+<hr>
+<h2 id="创建新仓库"><a href="#创建新仓库" class="headerlink" title="创建新仓库"></a>创建新仓库</h2><h3 id="创建新文件夹，打开，然后执行"><a href="#创建新文件夹，打开，然后执行" class="headerlink" title="创建新文件夹，打开，然后执行"></a>创建新文件夹，打开，然后执行</h3><p><code>git init</code>以创建新的 git 仓库。</p>
+<h2 id="克隆仓库"><a href="#克隆仓库" class="headerlink" title="克隆仓库"></a>克隆仓库</h2><h3 id="执行如下命令以创建一个本地仓库的克隆版本："><a href="#执行如下命令以创建一个本地仓库的克隆版本：" class="headerlink" title="执行如下命令以创建一个本地仓库的克隆版本："></a>执行如下命令以创建一个本地仓库的克隆版本：</h3><p><code>git clone /path/to/repository</code></p>
+<h3 id="如果是远端服务器上的仓库，你的命令会是这个样子："><a href="#如果是远端服务器上的仓库，你的命令会是这个样子：" class="headerlink" title="如果是远端服务器上的仓库，你的命令会是这个样子："></a>如果是远端服务器上的仓库，你的命令会是这个样子：</h3><p><code>git clone username@host:/path/to/repository</code></p>
+<h2 id="工作流"><a href="#工作流" class="headerlink" title="工作流"></a>工作流</h2><h4 id="你的本地仓库由-git-维护的三棵“树”组成。第一个是你的-工作目录，它持有实际文件；第二个是-缓存区（Index），它像个缓存区域，临时保存你的改动；最后是-HEAD，指向你最近一次提交后的结果。"><a href="#你的本地仓库由-git-维护的三棵“树”组成。第一个是你的-工作目录，它持有实际文件；第二个是-缓存区（Index），它像个缓存区域，临时保存你的改动；最后是-HEAD，指向你最近一次提交后的结果。" class="headerlink" title="你的本地仓库由 git 维护的三棵“树”组成。第一个是你的 工作目录，它持有实际文件；第二个是 缓存区（Index），它像个缓存区域，临时保存你的改动；最后是 HEAD，指向你最近一次提交后的结果。"></a>你的本地仓库由 git 维护的三棵“树”组成。第一个是你的 工作目录，它持有实际文件；第二个是 缓存区（Index），它像个缓存区域，临时保存你的改动；最后是 HEAD，指向你最近一次提交后的结果。</h4><h2 id="添加与提交"><a href="#添加与提交" class="headerlink" title="添加与提交"></a>添加与提交</h2><h3 id="你可以计划改动（把它们添加到缓存区），使用如下命令："><a href="#你可以计划改动（把它们添加到缓存区），使用如下命令：" class="headerlink" title="你可以计划改动（把它们添加到缓存区），使用如下命令："></a>你可以计划改动（把它们添加到缓存区），使用如下命令：</h3><p><code>git add &lt;filename&gt;</code><br><code>git add *</code></p>
+<h3 id="这是-git-基本工作流程的第一步；使用如下命令以实际提交改动："><a href="#这是-git-基本工作流程的第一步；使用如下命令以实际提交改动：" class="headerlink" title="这是 git 基本工作流程的第一步；使用如下命令以实际提交改动："></a>这是 git 基本工作流程的第一步；使用如下命令以实际提交改动：</h3><p><code>git commit -m</code>“代码提交信息”</p>
+<h4 id="现在，你的改动已经提交到了-HEAD，但是还没到你的远端仓库。"><a href="#现在，你的改动已经提交到了-HEAD，但是还没到你的远端仓库。" class="headerlink" title="现在，你的改动已经提交到了 HEAD，但是还没到你的远端仓库。"></a>现在，你的改动已经提交到了 HEAD，但是还没到你的远端仓库。</h4><h2 id="推送改动"><a href="#推送改动" class="headerlink" title="推送改动"></a>推送改动</h2><h3 id="你的改动现在已经在本地仓库的-HEAD-中了。执行如下命令以将这些改动提交到远端仓库："><a href="#你的改动现在已经在本地仓库的-HEAD-中了。执行如下命令以将这些改动提交到远端仓库：" class="headerlink" title="你的改动现在已经在本地仓库的 HEAD 中了。执行如下命令以将这些改动提交到远端仓库："></a>你的改动现在已经在本地仓库的 HEAD 中了。执行如下命令以将这些改动提交到远端仓库：</h3><p><code>git push origin master</code></p>
+<h4 id="可以把-master-换成你想要推送的任何分支。"><a href="#可以把-master-换成你想要推送的任何分支。" class="headerlink" title="可以把 master 换成你想要推送的任何分支。"></a>可以把 master 换成你想要推送的任何分支。</h4><h3 id="如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加："><a href="#如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：" class="headerlink" title="如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加："></a>如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：</h3><p><code>git remote add origin &lt;server&gt;</code></p>
+<h4 id="如此你就能够将你的改动推送到所添加的服务器上去了。"><a href="#如此你就能够将你的改动推送到所添加的服务器上去了。" class="headerlink" title="如此你就能够将你的改动推送到所添加的服务器上去了。"></a>如此你就能够将你的改动推送到所添加的服务器上去了。</h4><h2 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h2><h4 id="分支是用来将特性开发绝缘开来的。在你创建仓库的时候，master-是“默认的”。在其他分支上进行开发，完成后再将它们合并到主分支上。"><a href="#分支是用来将特性开发绝缘开来的。在你创建仓库的时候，master-是“默认的”。在其他分支上进行开发，完成后再将它们合并到主分支上。" class="headerlink" title="分支是用来将特性开发绝缘开来的。在你创建仓库的时候，master 是“默认的”。在其他分支上进行开发，完成后再将它们合并到主分支上。"></a>分支是用来将特性开发绝缘开来的。在你创建仓库的时候，master 是“默认的”。在其他分支上进行开发，完成后再将它们合并到主分支上。</h4><h3 id="创建一个叫做“feature-x”的分支，并切换过去："><a href="#创建一个叫做“feature-x”的分支，并切换过去：" class="headerlink" title="创建一个叫做“feature_x”的分支，并切换过去："></a>创建一个叫做“feature_x”的分支，并切换过去：</h3><p><code>git checkout -b feature_x</code></p>
+<h3 id="切换回主分支："><a href="#切换回主分支：" class="headerlink" title="切换回主分支："></a>切换回主分支：</h3><p><code>git checkout master</code></p>
+<h3 id="再把新建的分支删掉："><a href="#再把新建的分支删掉：" class="headerlink" title="再把新建的分支删掉："></a>再把新建的分支删掉：</h3><p><code>git branch -d feature_x</code></p>
+<h3 id="除非你将分支推送到远端仓库，不然该分支就是-不为他人所见的："><a href="#除非你将分支推送到远端仓库，不然该分支就是-不为他人所见的：" class="headerlink" title="除非你将分支推送到远端仓库，不然该分支就是 不为他人所见的："></a>除非你将分支推送到远端仓库，不然该分支就是 不为他人所见的：</h3><p><code>git push origin &lt;branch&gt;</code></p>
+<h2 id="更新与合并"><a href="#更新与合并" class="headerlink" title="更新与合并"></a>更新与合并</h2><h3 id="要更新你的本地仓库至最新改动，执行："><a href="#要更新你的本地仓库至最新改动，执行：" class="headerlink" title="要更新你的本地仓库至最新改动，执行："></a>要更新你的本地仓库至最新改动，执行：</h3><p><code>git pull</code> 以在你的工作目录中 获取（fetch） 并 合并（merge） 远端的改动。</p>
+<h3 id="要合并其他分支到你的当前分支（例如-master），执行："><a href="#要合并其他分支到你的当前分支（例如-master），执行：" class="headerlink" title="要合并其他分支到你的当前分支（例如 master），执行："></a>要合并其他分支到你的当前分支（例如 master），执行：</h3><p><code>git merge &lt;branch&gt;</code></p>
+<h4 id="两种情况下，git-都会尝试去自动合并改动。不幸的是，自动合并并非次次都能成功，并可能导致-冲突（conflicts）。-这时候就需要你修改这些文件来人肉合并这些-冲突（conflicts）-了。改完之后，你需要执行如下命令以将它们标记为合并成功："><a href="#两种情况下，git-都会尝试去自动合并改动。不幸的是，自动合并并非次次都能成功，并可能导致-冲突（conflicts）。-这时候就需要你修改这些文件来人肉合并这些-冲突（conflicts）-了。改完之后，你需要执行如下命令以将它们标记为合并成功：" class="headerlink" title="两种情况下，git 都会尝试去自动合并改动。不幸的是，自动合并并非次次都能成功，并可能导致 冲突（conflicts）。 这时候就需要你修改这些文件来人肉合并这些 冲突（conflicts） 了。改完之后，你需要执行如下命令以将它们标记为合并成功："></a>两种情况下，git 都会尝试去自动合并改动。不幸的是，自动合并并非次次都能成功，并可能导致 冲突（conflicts）。 这时候就需要你修改这些文件来人肉合并这些 冲突（conflicts） 了。改完之后，你需要执行如下命令以将它们标记为合并成功：</h4><p><code>git add &lt;filename&gt;</code></p>
+<h3 id="在合并改动之前，也可以使用如下命令查看："><a href="#在合并改动之前，也可以使用如下命令查看：" class="headerlink" title="在合并改动之前，也可以使用如下命令查看："></a>在合并改动之前，也可以使用如下命令查看：</h3><p><code>git diff &lt;source_branch&gt; &lt;target_branch&gt;</code></p>
+<h2 id="替换本地改动"><a href="#替换本地改动" class="headerlink" title="替换本地改动"></a>替换本地改动</h2><h3 id="假如你做错事（自然，这是不可能的），你可以使用如下命令替换掉本地改动："><a href="#假如你做错事（自然，这是不可能的），你可以使用如下命令替换掉本地改动：" class="headerlink" title="假如你做错事（自然，这是不可能的），你可以使用如下命令替换掉本地改动："></a>假如你做错事（自然，这是不可能的），你可以使用如下命令替换掉本地改动：</h3><p><code>git checkout -- &lt;filename&gt;</code> 此命令会使用 HEAD 中的最新内容替换掉你的工作目录中的文件。已添加到缓存区的改动，以及新文件，都不受影响。</p>
+<h3 id="假如你想要丢弃你所有的本地改动与提交，可以到服务器上获取最新的版本并将你本地主分支指向到它："><a href="#假如你想要丢弃你所有的本地改动与提交，可以到服务器上获取最新的版本并将你本地主分支指向到它：" class="headerlink" title="假如你想要丢弃你所有的本地改动与提交，可以到服务器上获取最新的版本并将你本地主分支指向到它："></a>假如你想要丢弃你所有的本地改动与提交，可以到服务器上获取最新的版本并将你本地主分支指向到它：</h3><p><code>git fetch origin
+git reset --hard origin/master</code></p>
+
       
     </div>
     
@@ -380,8 +404,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -423,6 +456,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#创建新仓库"><span class="nav-number">1.</span> <span class="nav-text">创建新仓库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建新文件夹，打开，然后执行"><span class="nav-number">1.1.</span> <span class="nav-text">创建新文件夹，打开，然后执行</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#克隆仓库"><span class="nav-number">2.</span> <span class="nav-text">克隆仓库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#执行如下命令以创建一个本地仓库的克隆版本："><span class="nav-number">2.1.</span> <span class="nav-text">执行如下命令以创建一个本地仓库的克隆版本：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如果是远端服务器上的仓库，你的命令会是这个样子："><span class="nav-number">2.2.</span> <span class="nav-text">如果是远端服务器上的仓库，你的命令会是这个样子：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#工作流"><span class="nav-number">3.</span> <span class="nav-text">工作流</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#你的本地仓库由-git-维护的三棵“树”组成。第一个是你的-工作目录，它持有实际文件；第二个是-缓存区（Index），它像个缓存区域，临时保存你的改动；最后是-HEAD，指向你最近一次提交后的结果。"><span class="nav-number">3.0.1.</span> <span class="nav-text">你的本地仓库由 git 维护的三棵“树”组成。第一个是你的 工作目录，它持有实际文件；第二个是 缓存区（Index），它像个缓存区域，临时保存你的改动；最后是 HEAD，指向你最近一次提交后的结果。</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加与提交"><span class="nav-number">4.</span> <span class="nav-text">添加与提交</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#你可以计划改动（把它们添加到缓存区），使用如下命令："><span class="nav-number">4.1.</span> <span class="nav-text">你可以计划改动（把它们添加到缓存区），使用如下命令：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#这是-git-基本工作流程的第一步；使用如下命令以实际提交改动："><span class="nav-number">4.2.</span> <span class="nav-text">这是 git 基本工作流程的第一步；使用如下命令以实际提交改动：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#现在，你的改动已经提交到了-HEAD，但是还没到你的远端仓库。"><span class="nav-number">4.2.1.</span> <span class="nav-text">现在，你的改动已经提交到了 HEAD，但是还没到你的远端仓库。</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推送改动"><span class="nav-number">5.</span> <span class="nav-text">推送改动</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#你的改动现在已经在本地仓库的-HEAD-中了。执行如下命令以将这些改动提交到远端仓库："><span class="nav-number">5.1.</span> <span class="nav-text">你的改动现在已经在本地仓库的 HEAD 中了。执行如下命令以将这些改动提交到远端仓库：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#可以把-master-换成你想要推送的任何分支。"><span class="nav-number">5.1.1.</span> <span class="nav-text">可以把 master 换成你想要推送的任何分支。</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加："><span class="nav-number">5.2.</span> <span class="nav-text">如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#如此你就能够将你的改动推送到所添加的服务器上去了。"><span class="nav-number">5.2.1.</span> <span class="nav-text">如此你就能够将你的改动推送到所添加的服务器上去了。</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分支"><span class="nav-number">6.</span> <span class="nav-text">分支</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#分支是用来将特性开发绝缘开来的。在你创建仓库的时候，master-是“默认的”。在其他分支上进行开发，完成后再将它们合并到主分支上。"><span class="nav-number">6.0.1.</span> <span class="nav-text">分支是用来将特性开发绝缘开来的。在你创建仓库的时候，master 是“默认的”。在其他分支上进行开发，完成后再将它们合并到主分支上。</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建一个叫做“feature-x”的分支，并切换过去："><span class="nav-number">6.1.</span> <span class="nav-text">创建一个叫做“feature_x”的分支，并切换过去：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#切换回主分支："><span class="nav-number">6.2.</span> <span class="nav-text">切换回主分支：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#再把新建的分支删掉："><span class="nav-number">6.3.</span> <span class="nav-text">再把新建的分支删掉：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#除非你将分支推送到远端仓库，不然该分支就是-不为他人所见的："><span class="nav-number">6.4.</span> <span class="nav-text">除非你将分支推送到远端仓库，不然该分支就是 不为他人所见的：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更新与合并"><span class="nav-number">7.</span> <span class="nav-text">更新与合并</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#要更新你的本地仓库至最新改动，执行："><span class="nav-number">7.1.</span> <span class="nav-text">要更新你的本地仓库至最新改动，执行：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#要合并其他分支到你的当前分支（例如-master），执行："><span class="nav-number">7.2.</span> <span class="nav-text">要合并其他分支到你的当前分支（例如 master），执行：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#两种情况下，git-都会尝试去自动合并改动。不幸的是，自动合并并非次次都能成功，并可能导致-冲突（conflicts）。-这时候就需要你修改这些文件来人肉合并这些-冲突（conflicts）-了。改完之后，你需要执行如下命令以将它们标记为合并成功："><span class="nav-number">7.2.1.</span> <span class="nav-text">两种情况下，git 都会尝试去自动合并改动。不幸的是，自动合并并非次次都能成功，并可能导致 冲突（conflicts）。 这时候就需要你修改这些文件来人肉合并这些 冲突（conflicts） 了。改完之后，你需要执行如下命令以将它们标记为合并成功：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在合并改动之前，也可以使用如下命令查看："><span class="nav-number">7.3.</span> <span class="nav-text">在合并改动之前，也可以使用如下命令查看：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#替换本地改动"><span class="nav-number">8.</span> <span class="nav-text">替换本地改动</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#假如你做错事（自然，这是不可能的），你可以使用如下命令替换掉本地改动："><span class="nav-number">8.1.</span> <span class="nav-text">假如你做错事（自然，这是不可能的），你可以使用如下命令替换掉本地改动：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#假如你想要丢弃你所有的本地改动与提交，可以到服务器上获取最新的版本并将你本地主分支指向到它："><span class="nav-number">8.2.</span> <span class="nav-text">假如你想要丢弃你所有的本地改动与提交，可以到服务器上获取最新的版本并将你本地主分支指向到它：</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
